@@ -37,9 +37,9 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 
 The confusion matrix shows the model's performance in classifying infected and uninfected cells.
 
-## Precision-Recall Curve
+## Training Accuracy and Loss Curves
 
-![Precision-Recall Curve](https://example.com/precision_recall_curve.png)
+![Training Accuracy and Loss Curves](Images/CNN_Performance.png)
 
 This graph illustrates the training accuracy and loss curves, showing the model's learning progress over epochs during training.
 
