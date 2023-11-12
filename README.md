@@ -41,7 +41,7 @@ The confusion matrix shows the model's performance in classifying infected and u
 
 ![Precision-Recall Curve](https://example.com/precision_recall_curve.png)
 
-The precision-recall curve illustrates the trade-off between precision and recall for different classification thresholds.
+This graph illustrates the training accuracy and loss curves, showing the model's learning progress over epochs during training.
 
 ## ROC Curve
 
