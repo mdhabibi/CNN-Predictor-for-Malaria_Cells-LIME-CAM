@@ -27,7 +27,7 @@ We've employed a robust workflow to train our model:
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
 ## Results
-The model achieved an impressive **94.99% accuracy** on the test set. The precision, recall, and F1-scores were high for both classes, suggesting balanced classification ability. Notably, the model attained an **AUC score of 0.98**, indicating excellent discriminative power.
+The model achieved an impressive **96.03% accuracy** on the test set. The precision, recall, and F1-scores were high for both classes, suggesting balanced classification ability. Notably, the model attained an **AUC score of 0.98**, indicating excellent discriminative power.
 
 ## Dataset
 The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
