@@ -29,6 +29,28 @@ We've employed a robust workflow to train our model:
 ## Results
 The model achieved an impressive **96.03% accuracy** on the test set. The precision, recall, and F1-scores were high for both classes, suggesting balanced classification ability. Notably, the model attained an **AUC score of 0.99**, indicating excellent discriminative power.
 
+Here are some visualizations and results from our Malaria Cell Image Classification project:
+
+## Confusion Matrix
+
+![Confusion Matrix](https://example.com/confusion_matrix.png)
+
+The confusion matrix shows the model's performance in classifying infected and uninfected cells.
+
+## Precision-Recall Curve
+
+![Precision-Recall Curve](https://example.com/precision_recall_curve.png)
+
+The precision-recall curve illustrates the trade-off between precision and recall for different classification thresholds.
+
+## ROC Curve
+
+![ROC Curve](https://example.com/roc_curve.png)
+
+The ROC curve displays the model's true positive rate against the false positive rate at various threshold levels.
+
+Feel free to explore these visualizations to gain insights into our model's performance.
+
 ## Dataset
 The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
 
