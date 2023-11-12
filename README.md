@@ -33,7 +33,7 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 
 ## Confusion Matrix
 
-![Confusion Matrix](https://example.com/confusion_matrix.png)
+![Confusion Matrix](https://github.com/mdhabibi/Malaria-Cell-Image-Classification/tree/main/Images/confusion_matrix.png)
 
 The confusion matrix shows the model's performance in classifying infected and uninfected cells.
 
