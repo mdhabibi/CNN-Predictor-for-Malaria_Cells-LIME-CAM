@@ -45,7 +45,7 @@ This graph illustrates the training accuracy and loss curves, showing the model'
 
 ## ROC Curve
 
-![ROC Curve](https://example.com/roc_curve.png)
+![ROC Curve](Images/Visual_Prediction.png)
 
 The ROC curve displays the model's true positive rate against the false positive rate at various threshold levels.
 
