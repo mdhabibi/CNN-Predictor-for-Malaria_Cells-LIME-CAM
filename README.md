@@ -59,7 +59,7 @@ The evaluation of the classification model yields robust metrics indicative of i
 
 ### Receiver Operating Characteristic (ROC) Curve and Area Under the Curve (AUC) Score
 
-<img src="Images/Visual_Prediction.png" width="600">
+<img src="Images/Visual_Prediction.png" width="400">
 
 
 The **ROC** curve graphically represents the trade-off between the true positive rate and the false positive rate at various thresholds. An **AUC** score of **0.99** signifies that the model has an outstanding discriminative ability to differentiate between the classes. This high **AUC** score suggests that the model can reliably rank predictions with a high degree of separability between '**Parasitized**' and '**Uninfected**' outcomes.
@@ -72,9 +72,9 @@ The **ROC** curve graphically represents the trade-off between the true positive
 
 The figures present the model's performance across the training epochs. 
 
-1. The **Accuracy Plot** on the left indicates the trend in classification accuracy for both the training set (<span style="color:blue">blue curve</span>) and the validation set (<span style="color:orange">orange curve</span>). A higher accuracy indicates better performance of the model in correctly classifying the input data.
+1. The **Accuracy Plot** on the left indicates the trend in classification accuracy for both the training set (**<span style="color:blue">blue curve</span>**) and the validation set (**<span style="color:orange">orange curve</span>**). A higher accuracy indicates better performance of the model in correctly classifying the input data.
 
-2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (<span style="color:blue">blue curve</span>) and validation (<span style="color:orange">orange curve</span>). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
+2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (**<span style="color:blue">blue curve</span>**) and validation (**<span style="color:orange">orange curve</span>**). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
 
 
 ## Dataset
