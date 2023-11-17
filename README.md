@@ -26,6 +26,25 @@ We've employed a robust workflow to train our model:
 - **Training and Validation**: Using an iterative approach, with early stopping to prevent overfitting.
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
+## Exploratory Data Analysis (EDA)
+
+In this section, we explored the dataset to gain insights into the characteristics of the cell images used for malaria detection.
+
+### Class Distribution
+
+We examined the distribution of classes in the dataset to understand the balance between infected and uninfected cells. This analysis revealed that the dataset contains a relatively balanced distribution of both classes, which is essential for model training and evaluation.
+
+### Sample Images
+
+To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
+
+![Confusion Matrix](Images/Confusion_Matrix.png)
+
+The sample images showcase the diversity of cell appearances and highlight the challenges of classifying them accurately.
+
+While there were other aspects explored in the EDA, these findings provide a brief overview of the dataset's characteristics and challenges, which guided our approach in building the CNN model for malaria cell classification.
+
+
 ## Results
 The model achieved an impressive **96.03% accuracy** on the test set. The precision, recall, and F1-scores were high for both classes, suggesting balanced classification ability. Notably, the model attained an **AUC score of 0.99**, indicating excellent discriminative power.
 
