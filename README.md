@@ -66,17 +66,16 @@ The **ROC** curve graphically represents the trade-off between the true positive
 
 
 
-
 ### Training Accuracy and Loss Curves
-
 
 ![Training Accuracy and Loss Curves](Images/CNN_Performance.png)
 
 The figures present the model's performance across the training epochs. 
 
-1. The **Accuracy Plot** on the left indicates the trend in classification accuracy for both the training set (**blue curve**) and the validation set (**orange curve**). A higher accuracy indicates better performance of the model in correctly classifying the input data.
+1. The **Accuracy Plot** on the left indicates the trend in classification accuracy for both the training set (<span style="color:blue">blue curve</span>) and the validation set (<span style="color:orange">orange curve</span>). A higher accuracy indicates better performance of the model in correctly classifying the input data.
 
-2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (**blue curve**) and validation (**orange curve**). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
+2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (<span style="color:blue">blue curve</span>) and validation (<span style="color:orange">orange curve</span>). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
+
 
 ## Dataset
 The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
