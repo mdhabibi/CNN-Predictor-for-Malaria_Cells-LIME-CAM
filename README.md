@@ -26,6 +26,18 @@ We've employed a robust workflow to train our model:
 - **Training and Validation**: Using an iterative approach with early stopping to prevent overfitting.
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
+## Dataset
+The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
+
+To download the dataset, you will need a Kaggle account and the Kaggle API installed on your machine. Follow these steps:
+
+1. Go to your Kaggle account settings and scroll down to the API section to create a new API token. This will download a `kaggle.json` file containing your API credentials.
+3. Place the `kaggle.json` file inside the main notebook when the snippet below is executed:
+
+from google.colab import files
+
+uploaded = files.upload()  # Upload the kaggle.json file here
+
 ## Exploratory Data Analysis (EDA)
 
 In this section, we explored the dataset to gain insights into the characteristics of the cell images used for malaria detection.
@@ -76,17 +88,7 @@ The figures present the model's performance across the training epochs.
 2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (**<span style="color:blue">blue curve</span>**) and validation (**<span style="color:orange">orange curve</span>**). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
 
 
-## Dataset
-The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
 
-To download the dataset, you will need a Kaggle account and the Kaggle API installed on your machine. Follow these steps:
-
-1. Go to your Kaggle account settings and scroll down to the API section to create a new API token. This will download a `kaggle.json` file containing your API credentials.
-3. Place the `kaggle.json` file inside the main notebook when the snippet below is executed:
-
-from google.colab import files
-
-uploaded = files.upload()  # Upload the kaggle.json file here
 
 ## How to Use
 Refer to the Jupyter notebook in this repository for detailed methodology and code implementation.
