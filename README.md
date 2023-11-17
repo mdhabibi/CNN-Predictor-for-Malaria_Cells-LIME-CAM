@@ -1,11 +1,11 @@
 # **Malaria Cell Image Classification Using CNN**
 
 ## Overview
-Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It's preventable and curable but can be fatal if not treated promptly. The Plasmodium falciparum parasite is the most dangerous, with the highest rates of complications and mortality.
+**Malaria** is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It's preventable and curable, but it can be fatal if not treated promptly. The Plasmodium falciparum parasite is the most dangerous, with the highest rates of complications and mortality.
 
-According to global health organizations, hundreds of thousands succumb to malaria annually, with a significant impact on child mortality rates. The annual death toll is certainly in the hundreds of thousands, but estimates differ between different global health organizations: The World Health Organization (WHO) estimates that 558,000 people died because of malaria in 2019; the Institute of Health Metrics and Evaluation (IHME) puts this estimate at 643,000.
+According to global health organizations, hundreds of thousands succumb to malaria annually, with a significant impact on child mortality rates. The annual death toll is certainly in the hundreds of thousands, but estimates differ between different global health organizations. The World Health Organization (WHO) estimates that **558,000** people died because of malaria in **2019**; the Institute of Health Metrics and Evaluation (IHME) puts this estimate at **643,000**.
 
-Most victims are children. It is one of the leading causes of child mortality. Every twelfth child that died in 2017, died because of malaria.<sup>[1]</sup> This project aims to assist in the fight against malaria by automating the detection of infected cells using deep learning.
+Most victims are children. It is one of the leading causes of child mortality. Every twelfth child that died in **2017**, died because of malaria.<sup>[1]</sup> This project aims to assist in the fight against malaria by automating the detection of infected cells using deep learning.
 
 ![Malaria Microscopy Image](https://ourworldindata.org/uploads/2022/03/Previous-prevalence-of-malaria-world-map.png)
 
@@ -16,14 +16,14 @@ Most victims are children. It is one of the leading causes of child mortality. E
 
 
 ## Project Objective
-The goal of this project is to develop a Convolutional Neural Network (CNN) that can classify microscopic images of cells as either infected with malaria or uninfected.
+The goal of this project is to develop a **Convolutional Neural Network (CNN)** that can classify microscopic images of cells as either infected with malaria or uninfected.
 
 ## Methodology
 We've employed a robust workflow to train our model:
 - **Data Preprocessing**: Standardizing the cell images for model input.
 - **Data Augmentation**: Enhancing the dataset to prevent overfitting and improve model robustness.
 - **Model Architecture**: Designing a CNN that learns features from cell images for classification.
-- **Training and Validation**: Using an iterative approach, with early stopping to prevent overfitting.
+- **Training and Validation**: Using an iterative approach with early stopping to prevent overfitting.
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
 ## Exploratory Data Analysis (EDA)
@@ -42,7 +42,7 @@ To visualize the dataset, we displayed a sample of images from both classes: par
 
 The sample images showcase the diversity of cell appearances and highlight the challenges of classifying them accurately.
 
-While there were other aspects explored in the EDA, these findings provide a brief overview of the dataset's characteristics and challenges, which guided our approach in building the CNN model for malaria cell classification.
+While there were other aspects explored in the **EDA**, these findings provide a brief overview of the dataset's characteristics and challenges, which guided our approach in building the **CNN model** for malaria cell classification.
 
 
 ## Results
@@ -53,7 +53,7 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 ![Confusion Matrix](Images/Confusion_Matrix.png)
 
 
-The evaluation of the classification model yields robust metrics indicative of its reliable performance in distinguishing between '**Parasitized**' and '**Uninfected**' classes. The model achieves an accuracy of 96.03%, reflecting its high level of correctness across predictions. Precision, a measure of the model's exactness, stands at **94.35%**, demonstrating that when the model predicts an instance as '**Parasitized**', it is correct more than **94%** of the time. Recall, or sensitivity, measures the model's ability to identify all relevant instances of '**Parasitized**' and is observed to be **97.74%**, indicating the model's strength in capturing the majority of positive cases. The F1-score, which harmonizes precision and recall, is at **96.02%**, underscoring the model's balanced performance in terms of both precision and recall. These metrics collectively affirm the model's efficacy and its potential utility in applications where accurate classification of parasitic infections is critical.
+The evaluation of the classification model yields robust metrics indicative of its reliable performance in distinguishing between '**Parasitized**' and '**Uninfected**' classes. The model achieves an accuracy of **96.03%**, reflecting its high level of correctness across predictions. **Precision**, a measure of the model's exactness, stands at **94.35%**, demonstrating that when the model predicts an instance as '**Parasitized**', it is correct more than **94%** of the time. **Recall**, or sensitivity, measures the model's ability to identify all relevant instances of '**Parasitized**' and is observed to be **97.74%**, indicating the model's strength in capturing the majority of positive cases. The **F1-score**, which harmonizes precision and recall, is at **96.02%**, underscoring the model's balanced performance in terms of both precision and recall. These metrics collectively affirm the model's efficacy and its potential utility in applications where accurate classification of parasitic infections is critical.
 
 
 
