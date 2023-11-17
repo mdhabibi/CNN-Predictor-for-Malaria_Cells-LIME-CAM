@@ -38,7 +38,7 @@ We examined the distribution of classes in the dataset to understand the balance
 
 To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
 
-![Confusion Matrix](Images/Confusion_Matrix.png)
+![Confusion Matrix](Images/Sample_Images.png)
 
 The sample images showcase the diversity of cell appearances and highlight the challenges of classifying them accurately.
 
