@@ -48,28 +48,26 @@ While there were other aspects explored in the EDA, these findings provide a bri
 ## Results
 Here are some visualizations and results from our Malaria Cell Image Classification project:
 
-# Confusion Matrix
+### Confusion Matrix
 
 ![Confusion Matrix](Images/Confusion_Matrix.png)
 
 
 The evaluation of the classification model yields robust metrics indicative of its reliable performance in distinguishing between '**Parasitized**' and '**Uninfected**' classes. The model achieves an accuracy of 96.03%, reflecting its high level of correctness across predictions. Precision, a measure of the model's exactness, stands at **94.35%**, demonstrating that when the model predicts an instance as '**Parasitized**', it is correct more than **94%** of the time. Recall, or sensitivity, measures the model's ability to identify all relevant instances of '**Parasitized**' and is observed to be **97.74%**, indicating the model's strength in capturing the majority of positive cases. The F1-score, which harmonizes precision and recall, is at **96.02%**, underscoring the model's balanced performance in terms of both precision and recall. These metrics collectively affirm the model's efficacy and its potential utility in applications where accurate classification of parasitic infections is critical.
 
-# ROC Curve
-Notably, the model attained an **AUC score of 0.99**, indicating excellent discriminative power.
+
+
+### Receiver Operating Characteristic (ROC) Curve and Area Under the Curve (AUC) Score
+
+<img src="Images/Visual_Prediction.png" width="600">
+
+
+The **ROC** curve graphically represents the trade-off between the true positive rate and the false positive rate at various thresholds. An **AUC** score of **0.99** signifies that the model has an outstanding discriminative ability to differentiate between the classes. This high **AUC** score suggests that the model can reliably rank predictions with a high degree of separability between '**Parasitized**' and '**Uninfected**' outcomes.
 
 
 
-![ROC Curve](Images/Visual_Prediction.png)
 
-The ROC curve displays the model's true positive rate against the false positive rate at various threshold levels.
-
-
-
-
-The confusion matrix shows the model's performance in classifying infected and uninfected cells.
-
-## Training Accuracy and Loss Curves
+### Training Accuracy and Loss Curves
 
 ![Training Accuracy and Loss Curves](Images/CNN_Performance.png)
 
