@@ -51,7 +51,7 @@ We examined the distribution of classes in the dataset to understand the balance
 To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
 
 <div align="center">
-  <img src="Images/Sample_Images.png" alt="Sample Images">
+  <img src="Images/Sample_Images.png" width="500">
 </div>
 
 
