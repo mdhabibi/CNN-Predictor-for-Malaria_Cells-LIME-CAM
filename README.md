@@ -75,16 +75,20 @@ The evaluation of the classification model yields robust metrics indicative of i
 
 ### Receiver Operating Characteristic (ROC) Curve and Area Under the Curve (AUC) Score
 
-<img src="Images/Visual_Prediction.png" width="400">
 
+<div align="center">
+  <img src="Images/Visual_Prediction.png" width="400">
+</div>
 
 The **ROC** curve graphically represents the trade-off between the true positive rate and the false positive rate at various thresholds. An **AUC** score of **0.99** signifies that the model has an outstanding discriminative ability to differentiate between the classes. This high **AUC** score suggests that the model can reliably rank predictions with a high degree of separability between '**Parasitized**' and '**Uninfected**' outcomes.
 
 
 
 ### Training Accuracy and Loss Curves
+<div align="center">
+  <img src="Images/CNN_Performance.png" width="400">
+</div>
 
-![Training Accuracy and Loss Curves](Images/CNN_Performance.png)
 
 The figures present the model's performance across the training epochs. 
 
