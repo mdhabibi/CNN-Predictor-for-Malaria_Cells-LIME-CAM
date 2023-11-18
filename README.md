@@ -51,7 +51,7 @@ We examined the distribution of classes in the dataset to understand the balance
 To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
 
 <div align="center">
-  <img src="Images/Sample_Images.png" width="500">
+  <img src="Images/Sample_Images.png" width="700">
 </div>
 
 
@@ -65,7 +65,9 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 
 ### Confusion Matrix
 
-<img src="Images/Confusion_Matrix.png" width="500">
+<div align="center">
+  <img src="Images/Confusion_Matrix.png" width="500">
+</div>
 
 The evaluation of the classification model yields robust metrics indicative of its reliable performance in distinguishing between '**Parasitized**' and '**Uninfected**' classes. The model achieves an accuracy of **96.03%**, reflecting its high level of correctness across predictions. **Precision**, a measure of the model's exactness, stands at **94.35%**, demonstrating that when the model predicts an instance as '**Parasitized**', it is correct more than **94%** of the time. **Recall**, or sensitivity, measures the model's ability to identify all relevant instances of '**Parasitized**' and is observed to be **97.74%**, indicating the model's strength in capturing the majority of positive cases. The **F1-score**, which harmonizes precision and recall, is at **96.02%**, underscoring the model's balanced performance in terms of both precision and recall. These metrics collectively affirm the model's efficacy and its potential utility in applications where accurate classification of parasitic infections is critical.
 
