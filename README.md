@@ -86,7 +86,7 @@ The **ROC** curve graphically represents the trade-off between the true positive
 
 ### Training Accuracy and Loss Curves
 <div align="center">
-  <img src="Images/CNN_Performance.png" width="600">
+  <img src="Images/CNN_Performance.png" width="800">
 </div>
 
 
