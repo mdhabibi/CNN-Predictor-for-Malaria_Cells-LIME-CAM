@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Images/Sample_Images.png" width="700">
+  <img src="Images/MalariaClassifierArtImage.png" width="500">
 </div>
 
 # **Malaria Cell Image Classification Using CNN**
