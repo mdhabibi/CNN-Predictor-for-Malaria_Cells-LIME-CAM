@@ -96,6 +96,39 @@ The figures present the model's performance across the training epochs.
 
 2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (**<span style="color:blue">blue curve</span>**) and validation (**<span style="color:orange">orange curve</span>**). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
 
+## Tuned Model Results and Comparison
+
+### Overview of the Tuned Model
+Following the initial success of our CNN model, we employed hyperparameter tuning to further refine the model's performance. The tuning process involved systematically searching for the optimal combination of hyperparameters using a Keras Tuner. This approach aimed to enhance the model's ability to classify cell images with greater accuracy and reliability.
+
+### Results of the Tuned Model
+The hyperparameter tuning resulted in a model with improved metrics, as highlighted below:
+
+- **Accuracy**: Increased marginally to 96.08% from 96.03%.
+- **Test Loss**: Reduced significantly to 0.10908 from 0.19740, indicating better generalization on the validation data.
+- **Precision for 'Parasitized'**: Slightly decreased to 0.97 from 0.98, suggesting a minor trade-off for improved recall.
+- **Recall for 'Parasitized'**: Improved to 0.95 from 0.94, indicating the model's enhanced ability to identify positive cases.
+- **F1-Score for 'Parasitized'**: Remained consistently high at 0.96 for both models, demonstrating a balance between precision and recall.
+
+### Confusion Matrix for the Tuned Model
+The confusion matrix for the tuned model is as follows:
+
+<div align="center">
+  <img src="Images/Confusion_Matrix_tuned.png" width="500">
+</div>
+
+This matrix shows the model's performance in predicting the actual classes of the test set, where the number of correctly predicted instances for both 'Parasitized' and 'Uninfected' cells showcases the model's robustness.
+
+### Comparison with the Untuned Model
+When compared to the untuned model, the tuned model shows a slight improvement in overall accuracy and a more substantial decrease in test loss. The confusion matrix reveals a better recall rate, which is critical in medical diagnostics where missing a positive case (false negative) can have serious consequences.
+
+While the precision has slightly decreased, the trade-off resulted in a model that is more sensitive to detecting 'Parasitized' cells, which is a valuable characteristic for early intervention in malaria treatment.
+
+### F1-Score Comparison
+The F1-Score, which combines precision and recall into a single metric, remained constant at 0.96 for both models. This indicates that despite the changes in individual precision and recall rates, the overall harmonic balance of these metrics is maintained.
+
+### Conclusion of the Tuned Model Evaluation
+The tuned model demonstrates a promising direction for improving malaria detection. The slight adjustments in performance metrics illustrate the nuances of model optimization and highlight the potential for even minor enhancements to have a significant impact on the model's application in real-world scenarios.
 
 
 
