@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="Images/MalariaClassifierArtImage.png" width="200">
+  <img src="Images/meresome-release-MIT.gif" width="200">
 </div>
+*This animation illustrates the lifecycle of malaria parasites. For more information on the growth of human malaria parasites in their dormant form, visit [MIT News](https://news.mit.edu/2018/human-malaria-parasites-grown-first-time-dormant-form-0222).*
 
 # **Malaria Cell Image Classification Using CNN**
 
