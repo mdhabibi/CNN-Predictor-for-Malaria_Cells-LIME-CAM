@@ -1,9 +1,11 @@
+# **Malaria Cell Image Classification Using CNN**
+
 <div align="center">
   <img src="Images/meresome-release-MIT.gif" width="500">
 </div>
 *This animation illustrates the lifecycle of malaria parasites. For more information on the growth of human malaria parasites in their dormant form, visit [MIT News](https://news.mit.edu/2018/human-malaria-parasites-grown-first-time-dormant-form-0222).*
 
-# **Malaria Cell Image Classification Using CNN**
+
 
 ## Overview
 **Malaria** is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It's preventable and curable, but it can be fatal if not treated promptly. The Plasmodium falciparum parasite is the most dangerous, with the highest rates of complications and mortality.
