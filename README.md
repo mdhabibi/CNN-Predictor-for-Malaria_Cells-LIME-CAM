@@ -138,9 +138,14 @@ The **F1-Score**, which combines precision and recall into a single metric, rema
 The tuned model demonstrates a promising direction for improving malaria detection. The slight adjustments in performance metrics illustrate the nuances of model optimization and highlight the potential for even minor enhancements to have a significant impact on the model's application in real-world scenarios.
 
 
+## Setting Up the Environment
+To run the notebooks in this repository, you can create a Conda environment with all the necessary dependencies using the provided **malaria_detection_env.yml** file. Follow these steps:
 
-## How to Use
-Refer to the Jupyter notebook in this repository for detailed methodology and code implementation.
+1. Ensure you have [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed.
+2. Clone or download this repository to your local machine.
+3. Navigate to the repository directory in your terminal.
+4. Run `conda env create -f malaria_detection_env.yml` to create the environment.
+5. Once the environment is created, activate it with `conda activate malaria_detection_env.yml`.
 
 ## Conclusion and Future Work
 The model's strong performance underscores its potential as a diagnostic aid for rapid malaria detection. The project showcases the efficacy of CNNs in medical image analysis and their potential to support healthcare initiatives.
