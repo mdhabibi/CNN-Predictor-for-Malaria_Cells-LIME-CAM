@@ -157,7 +157,7 @@ Future enhancements may include:
 
 
 ## Acknowledgments
-- A special thanks to **Dr. Ehsan (Sam) Gharib-Nezhad** for his insightful feedback and suggestions that significantly enhanced the quality of this project. His expertise and thoughtful reviews were tremendously helpful. You can find more about his work on [EhsanGharibNezhad](https://github.com/EhsanGharibNezhad).
+- A special thanks to **Dr. Ehsan (Sam) Gharib-Nezhad** and **Dr. Amirhossein Kardoost** for their insightful feedback and suggestions that significantly enhanced the quality of this project. Their expertise and thoughtful reviews were tremendously helpful. You can find more about their works on [EhsanGharibNezhad](https://github.com/EhsanGharibNezhad) and [Amir_kd](https://github.com/Amirhk-dev).
 - Data provided by [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria).
 - World Health Organization (WHO) for malaria statistics.
 
