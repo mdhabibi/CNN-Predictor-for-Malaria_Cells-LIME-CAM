@@ -23,6 +23,4 @@ from sklearn.model_selection import train_test_split
 from keras.utils import to_categorical  # To convert a class vector (integers) to a binary class matrix
 from sklearn.metrics import classification_report, confusion_matrix
 
-# Keras Tuner Notebook
-from kerastuner import HyperModel
-from kerastuner.tuners import RandomSearch
+
