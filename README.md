@@ -33,17 +33,19 @@ We've employed a robust workflow to train our model:
 - **Training and Validation**: Using an iterative approach with early stopping to prevent overfitting.
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
-## Dataset
-The dataset is from [Kaggle's Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria), which is hosted on Kaggle. It contains a large number of labeled microscopic images of cells infected with malaria as well as uninfected cells.
+## Dataset Download Instructions
 
-To download the dataset, you will need a Kaggle account and the Kaggle API installed on your machine. Follow these steps:
+The dataset used in this notebook is the "Malaria Cell Images Dataset", which is available on Kaggle. Due to its size (approximately 850 MB), it is not included in this repository. 
 
-1. Go to your Kaggle account settings and scroll down to the API section to create a new API token. This will download a `kaggle.json` file containing your API credentials.
-3. Place the `kaggle.json` file inside the main notebook when the snippet below is executed:
+To use this notebook, please download the dataset by following these steps:
 
-from google.colab import files
+1. Visit the [Malaria Cell Images Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria) on Kaggle.
+2. Download the dataset to your local machine.
+3. Extract the dataset to a known directory.
+4. Update the `dataset_path` variable in the notebook with the path to the extracted dataset on your machine.
 
-uploaded = files.upload()  # Upload the kaggle.json file here
+In addition, we have provided a script named "download_dataset_from_Kaggle.py" in Script directory for user who want to download the dataset directly from Kaggle.
+
 
 ## Exploratory Data Analysis (EDA)
 
