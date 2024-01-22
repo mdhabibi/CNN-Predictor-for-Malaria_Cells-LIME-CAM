@@ -67,7 +67,7 @@ The sample images showcase the diversity of cell appearances and highlight the c
 We examined the distribution of classes in the dataset to understand the balance between infected and uninfected cells. This analysis revealed that the dataset contains a well-balanced distribution of both classes, which is essential for model training and evaluation.
 
 <div align="center">
-  <img src="Images/Class_Distribution.png" width="700">
+  <img src="Images/Class_Distribution.png" width="500">
 </div>
 
 While there were other aspects explored in the **EDA**, these findings provide a brief overview of the dataset's characteristics and challenges, which guided our approach in building the **CNN model** for malaria cell classification.
@@ -75,6 +75,30 @@ While there were other aspects explored in the **EDA**, these findings provide a
 
 ## Results
 Here are some visualizations and results from our Malaria Cell Image Classification project:
+
+### Model Performance Metrics
+
+To evaluate the effectiveness of our malaria cell image classification model, we've compiled key performance metrics. These metrics provide insights into the model's ability to accurately classify cells as either infected or uninfected. Below is a summary table showcasing these metrics:
+
+<div align="center">
+  <img src="Images/model_performance_table.png" width="500">
+</div>
+
+**Key Aspects of the Table:**
+
+- **Accuracy (95.90%)**: This is the overall correctness of the model in classifying the images. A high accuracy indicates that the model is able to correctly identify most of the infected and uninfected cells.
+
+- **Test Loss (0.18573)**: Represents how well the model is performing against the test dataset. A lower test loss indicates that the model is making fewer mistakes in its predictions.
+
+- **Precision, Recall, and F1-Score for Each Class**: These metrics are calculated separately for both 'Infected' and 'Uninfected' classes. 
+  - _Precision_ reflects the proportion of true positive identifications among all positive identifications made by the model.
+  - _Recall_ (or sensitivity) indicates the proportion of actual positives correctly identified.
+  - _F1-Score_ is the harmonic mean of precision and recall, providing a balance between these two metrics.
+
+- **Macro and Weighted Averages**: These provide an overall picture of the model's performance across both classes. The macro average calculates metrics independently for each class and then takes the average, treating all classes equally. The weighted average takes class imbalance into account.
+
+The above metrics are essential for understanding the model's strengths and areas for improvement, especially in a medical imaging context where accuracy and reliability are crucial.
+
 
 ### Confusion Matrix
 
