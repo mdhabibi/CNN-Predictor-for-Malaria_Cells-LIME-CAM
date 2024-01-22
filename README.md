@@ -103,11 +103,13 @@ The above metrics are essential for understanding the model's strengths and area
 ### Confusion Matrix
 
 <div align="center">
-  <img src="Images/Confusion_Matrix.png" width="500">
+  <img src="Images/cnn_confusion_matrix.png" width="500">
 </div>
 
-The evaluation of the classification model yields robust metrics indicative of its reliable performance in distinguishing between '**Parasitized**' and '**Uninfected**' classes. The model achieves an accuracy of **96.03%**, reflecting its high level of correctness across predictions. **Precision**, a measure of the model's exactness, stands at **94.35%**, demonstrating that when the model predicts an instance as '**Parasitized**', it is correct more than **94%** of the time. **Recall**, or sensitivity, measures the model's ability to identify all relevant instances of '**Parasitized**' and is observed to be **97.74%**, indicating the model's strength in capturing the majority of positive cases. The **F1-score**, which harmonizes precision and recall, is at **96.02%**, underscoring the model's balanced performance in terms of both precision and recall. These metrics collectively affirm the model's efficacy and its potential utility in applications where accurate classification of parasitic infections is critical.
-
+- **True Positives (TP) - 2615:** The model correctly identified **2615** cells as **'Infected'**.
+- **True Negatives (TN) - 2671:** The model correctly identified **2671** cells as **'Uninfected'**.
+- **False Positives (FP) - 182:** The model incorrectly identified **182** cells as **'Infected'** when they were actually **'Uninfected'**.
+- **False Negatives (FN) - 44:** The model incorrectly identified **44** cells as **'Uninfected'** when they were actually **'Infected'**.
 
 
 ### Receiver Operating Characteristic (ROC) Curve and Area Under the Curve (AUC) Score
