@@ -28,14 +28,14 @@ The goal of this project is to develop a **Convolutional Neural Network (CNN)** 
 ## Methodology
 We've employed a robust workflow to train our model:
 - **Data Preprocessing**: Standardizing the cell images for model input.
-- **Data Augmentation**: Enhancing the dataset to prevent overfitting and improve model robustness.
+- **Data Augmentation**: Enhancing the training data to prevent overfitting and improve model robustness.
 - **Model Architecture**: Designing a CNN that learns features from cell images for classification.
 - **Training and Validation**: Using an iterative approach with early stopping to prevent overfitting.
 - **Evaluation**: Assessing model performance with accuracy, precision, recall, F1-score, and AUC.
 
 ## Dataset Download Instructions
 
-The dataset used in this notebook is the "Malaria Cell Images Dataset", which is available on Kaggle. Due to its size (approximately 850 MB), it is not included in this repository. 
+The dataset used in this notebook is the "Malaria Cell Images Dataset", which is available on Kaggle. Due to its size (approximately 708 MB), it is not included in this repository. 
 
 To use this notebook, please download the dataset by following these steps:
 
@@ -51,10 +51,6 @@ In addition, we have provided a script named "download_dataset_from_Kaggle.py" i
 
 In this section, we explored the dataset to gain insights into the characteristics of the cell images used for malaria detection.
 
-### Class Distribution
-
-We examined the distribution of classes in the dataset to understand the balance between infected and uninfected cells. This analysis revealed that the dataset contains a relatively balanced distribution of both classes, which is essential for model training and evaluation.
-
 ### Sample Images
 
 To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
@@ -65,6 +61,14 @@ To visualize the dataset, we displayed a sample of images from both classes: par
 
 
 The sample images showcase the diversity of cell appearances and highlight the challenges of classifying them accurately.
+
+### Class Distribution
+
+We examined the distribution of classes in the dataset to understand the balance between infected and uninfected cells. This analysis revealed that the dataset contains a well-balanced distribution of both classes, which is essential for model training and evaluation.
+
+<div align="center">
+  <img src="Images/Class_Distribution.png" width="700">
+</div>
 
 While there were other aspects explored in the **EDA**, these findings provide a brief overview of the dataset's characteristics and challenges, which guided our approach in building the **CNN model** for malaria cell classification.
 
