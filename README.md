@@ -76,6 +76,10 @@ While there were other aspects explored in the **EDA**, these findings provide a
 ## Results
 Here are some visualizations and results from our Malaria Cell Image Classification project:
 
+<div align="center">
+  <img src="Images/Model_predictions.png" width="800">
+</div>
+
 ### Model Performance Metrics
 
 To evaluate the effectiveness of our malaria cell image classification model, we've compiled key performance metrics. These metrics provide insights into the model's ability to accurately classify cells as either infected or uninfected. Below is a summary table showcasing these metrics:
