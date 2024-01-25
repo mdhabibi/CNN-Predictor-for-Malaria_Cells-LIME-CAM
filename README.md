@@ -56,7 +56,7 @@ In this section, we explored the dataset to gain insights into the characteristi
 To visualize the dataset, we displayed a sample of images from both classes: parasitized and uninfected cells. These sample images provide a visual representation of the cells and their differences.
 
 <div align="center">
-  <img src="Images/Sample_Images.png" width="700">
+  <img src="Images/Sample_Images.png" width="800">
 </div>
 
 
@@ -80,9 +80,6 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 
 To evaluate the effectiveness of our malaria cell image classification model, we've compiled key performance metrics. These metrics provide insights into the model's ability to accurately classify cells as either infected or uninfected. Below is a summary table showcasing these metrics:
 
-<div align="center">
-  <img src="Images/model_performance_table.png" width="500">
-</div>
 
 | Metric         | Infected (0) | Uninfected (1) | Overall     |
 |----------------|--------------|----------------|-------------|
@@ -96,9 +93,9 @@ To evaluate the effectiveness of our malaria cell image classification model, we
 
 **Key Aspects of the Table:**
 
-- **Accuracy (95.90%)**: This is the overall correctness of the model in classifying the images. A high accuracy indicates that the model is able to correctly identify most of the infected and uninfected cells.
+- **Accuracy (96.19%)**: This is the overall correctness of the model in classifying the images. A high accuracy indicates that the model is able to correctly identify most of the infected and uninfected cells.
 
-- **Test Loss (0.18573)**: Represents how well the model is performing against the test dataset. A lower test loss indicates that the model is making fewer mistakes in its predictions.
+- **Test Loss (0.16538)**: Represents how well the model is performing against the test dataset. A lower test loss indicates that the model is making fewer mistakes in its predictions.
 
 - **Precision, Recall, and F1-Score for Each Class**: These metrics are calculated separately for both 'Infected' and 'Uninfected' classes. 
   - _Precision_ reflects the proportion of true positive identifications among all positive identifications made by the model.
@@ -116,10 +113,10 @@ The above metrics are essential for understanding the model's strengths and area
   <img src="Images/cnn_confusion_matrix.png" width="500">
 </div>
 
-- **True Positives (TP) - 2615:** The model correctly identified **2615** cells as **'Infected'**.
-- **True Negatives (TN) - 2671:** The model correctly identified **2671** cells as **'Uninfected'**.
-- **False Positives (FP) - 182:** The model incorrectly identified **182** cells as **'Infected'** when they were actually **'Uninfected'**.
-- **False Negatives (FN) - 44:** The model incorrectly identified **44** cells as **'Uninfected'** when they were actually **'Infected'**.
+- **True Positives (TP) - 2671:** The model correctly identified **2671** cells as **'Infected'**.
+- **True Negatives (TN) - 2631:** The model correctly identified **2631** cells as **'Uninfected'**.
+- **False Positives (FP) - 126:** The model incorrectly identified **126** cells as **'Infected'** when they were actually **'Uninfected'**.
+- **False Negatives (FN) - 84:** The model incorrectly identified **84** cells as **'Uninfected'** when they were actually **'Infected'**.
 
 
 ### Receiver Operating Characteristic (ROC) Curve and Area Under the Curve (AUC) Score
