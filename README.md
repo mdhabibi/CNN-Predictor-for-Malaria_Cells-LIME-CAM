@@ -81,6 +81,8 @@ Here are some visualizations and results from our Malaria Cell Image Classificat
 To evaluate the effectiveness of our malaria cell image classification model, we've compiled key performance metrics. These metrics provide insights into the model's ability to accurately classify cells as either infected or uninfected. Below is a summary table showcasing these metrics:
 
 
+<div align="center">
+
 | Metric         | Infected (0) | Uninfected (1) | Overall     |
 |----------------|--------------|----------------|-------------|
 | Precision      | 0.97         | 0.95           | -           |
@@ -89,6 +91,9 @@ To evaluate the effectiveness of our malaria cell image classification model, we
 | Accuracy       | -            | -              | 96.19%      |
 | Test Loss      | -            | -              | 0.16538     |
 | Samples Tested | 2797         | 2715           | 5512        |
+
+</div>
+
 
 
 **Key Aspects of the Table:**
