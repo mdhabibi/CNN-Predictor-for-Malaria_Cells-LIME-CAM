@@ -147,6 +147,36 @@ The figures present the model's performance across the training epochs.
 
 2. The **Loss Plot** on the right tracks the model's loss or error rate over the same epochs for both training (**<span style="color:blue">blue curve</span>**) and validation (**<span style="color:orange">orange curve</span>**). The declining trend signifies the model's improving ability to make accurate predictions by minimizing error.
 
+## LIME (Local Interpretable Model-Agnostic Explanations) Analysis
+
+### Overview
+In addition to building a CNN model for malaria cell image classification, we have conducted an interpretability analysis using the LIME framework. This analysis aims to understand the decision-making process of our CNN model by highlighting the specific features in the cell images that contribute to its predictions.
+
+### Purpose of LIME Analysis
+The primary goal of the LIME analysis is to bring transparency to our CNN model, making its predictions more understandable and trustworthy, especially in a medical context where explanations are as crucial as the predictions themselves.
+
+### Key Steps in the LIME Analysis
+The LIME analysis involved several key steps:
+1. **Image Perturbation**: Generating variations of the input image to understand how different features affect the model's predictions.
+2. **Model Prediction on Perturbations**: Analyzing how these variations influence the model's classification decisions.
+3. **Interpretable Model Construction**: Building a simpler, linear model to approximate the predictions of the complex CNN model.
+4. **Explanation Extraction**: Identifying which features (or superpixels in this case) of the image were most influential in the model's predictions.
+
+### Insights from the LIME Analysis
+The LIME analysis provided valuable insights into the model's behavior, revealing which aspects of the malaria cell images were most critical for classification. This understanding can help improve model design and provide medical professionals with additional context for the model's predictions.
+
+### Visualizations and Results
+The LIME analysis included visualizations that highlighted the influential regions in the cell images that led to specific classifications. These visualizations offer a tangible way to interpret the complex workings of the CNN model.
+
+<div align="center">
+  <img src="Images/LIME.png" width="800">
+</div>
+
+
+### Conclusion of the LIME Analysis
+The LIME analysis played a crucial role in validating and interpreting our CNN model's predictions. By understanding the 'why' behind the model's decisions, we can ensure that our approach to malaria cell classification is both effective and interpretable, leading to better trust and usability in real-world applications.
+
+
 ## Tuned Model Results and Comparison
 
 ### Overview of the Tuned Model
