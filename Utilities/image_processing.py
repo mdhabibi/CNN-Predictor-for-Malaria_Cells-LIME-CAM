@@ -49,8 +49,11 @@ def load_and_preprocess_images(directory, size, color_mode='rgb', image_formats=
 
                 # Resize the image
                 image_resized = cv2.resize(image_processed, (size, size))
+                
+                # Normalize the image
+                image_normalized = image_resized.astype('float32') / 255.
 
-                images_list.append(image_resized)
+                images_list.append(image_normalized)
                 labels_list.append(assign_label(image_path, positive_class='Parasitized'))
         except Exception as e:
             print(f"Error processing image {image_path}: {e}")

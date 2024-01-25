@@ -84,6 +84,16 @@ To evaluate the effectiveness of our malaria cell image classification model, we
   <img src="Images/model_performance_table.png" width="500">
 </div>
 
+| Metric         | Infected (0) | Uninfected (1) | Overall     |
+|----------------|--------------|----------------|-------------|
+| Precision      | 0.97         | 0.95           | -           |
+| Recall         | 0.95         | 0.97           | -           |
+| F1-Score       | 0.96         | 0.96           | -           |
+| Accuracy       | -            | -              | 96.19%      |
+| Test Loss      | -            | -              | 0.16538     |
+| Samples Tested | 2797         | 2715           | 5512        |
+
+
 **Key Aspects of the Table:**
 
 - **Accuracy (95.90%)**: This is the overall correctness of the model in classifying the images. A high accuracy indicates that the model is able to correctly identify most of the infected and uninfected cells.

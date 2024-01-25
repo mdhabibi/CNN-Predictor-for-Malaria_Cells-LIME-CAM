@@ -95,6 +95,29 @@ def get_data_preprocessing_tools():
     """
     from tensorflow.keras.preprocessing.image import ImageDataGenerator
     return ImageDataGenerator
+    
+def get_lime_related_libs():
+    """
+    Import and return libraries and functions that we used in LIME_test.ipynb
+
+    Returns:
+        skimage.io: Module from scikit-image for reading and writing images.
+        skimage.segmentation: Module from scikit-image for image segmentation.
+        sklearn: Scikit-learn module for machine learning algorithms.
+        LinearRegression: Linear regression model from Scikit-learn.
+        warnings: Module to handle warnings.
+        load_model: Function from Keras to load pre-trained models.
+    """
+    #import skimage.io
+    #import skimage.segmentation
+    import skimage
+
+    import sklearn
+    from sklearn.linear_model import LinearRegression
+    import warnings
+    from keras.models import load_model
+    return skimage, sklearn, LinearRegression, warnings, load_model
+
 
 if __name__ == "__main__":
     # Test imports
