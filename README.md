@@ -1,4 +1,4 @@
-# **Malaria Cell Image Classification Using CNN**
+# **Malaria Cell Image Classification Using CNN and LIME Test**
 
 <div align="center">
   <img src="Images/meresome-release-MIT.gif" width="500">
