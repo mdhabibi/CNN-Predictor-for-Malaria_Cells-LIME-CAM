@@ -180,6 +180,36 @@ The LIME analysis included visualizations that highlighted the influential regio
 ### Conclusion of the LIME Analysis
 The LIME analysis played a crucial role in validating and interpreting our CNN model's predictions. By understanding the 'why' behind the model's decisions, we can ensure that our approach to malaria cell classification is both effective and interpretable, leading to better trust and usability in real-world applications.
 
+## Enhancing Model Interpretability with Class Activation Mapping (CAM)
+
+Following our exploration with LIME for model interpretability, we delve deeper into understanding our Convolutional Neural Network's decision-making process through Class Activation Mapping (CAM). This technique, rooted in the innovative work by MIT researchers ("Learning Deep Features for Discriminative Localization"), enables us to visualize the specific regions within the cell images that our model focuses on when making predictions. This visualization not only demystifies the CNN's operations but also significantly enhances the model's transparency.
+
+### The Power of Global Average Pooling (GAP)
+
+At the heart of our CAM implementation is the Global Average Pooling (GAP) layer, strategically positioned after the last convolutional layer of our CNN. Unlike traditional dense layers, the GAP layer reduces the dimensionality of the feature maps while retaining spatial information. This allows for a direct correlation between the last convolutional layer's activations and the final classification output, making it possible to highlight the discriminative features within the image that lead to a prediction.
+
+### Visualizing Discriminative Regions with CAM
+
+The process of generating Class Activation Maps involves several key steps:
+1. **Prediction and Weight Extraction**: For a given image, we first predict its class (infected or uninfected) and extract the weights associated with that class from the model's output layer.
+2. **Activation Map Retrieval**: We then fetch the activation maps from the last convolutional layer, which contain rich spatial information about the features detected in the image.
+3. **Weighted Summation and Upsampling**: By computing a weighted sum of these activation maps, using the extracted weights, we generate a CAM that highlights the regions of interest. This CAM is then upsampled to the size of the original input image for easy visualization.
+4. **Interpretation and Insight**: Overlaying the CAM on the original image allows us to see exactly which parts of the cell the model identifies as indicative of malaria infection, providing invaluable insights into the model's focus areas and prediction rationale.
+
+### Implementation and Results
+
+We applied CAM to our CNN model trained for malaria cell classification, resulting in compelling visual evidence of the model's attention in both parasitized and uninfected cells. The generated heatmaps clearly delineate the areas within the cells that most significantly influence the model's predictions, offering a window into the model's "thought process".
+
+<div align="center">
+  <img src="Images/cam_plots_.png" width="800">
+</div>
+
+*Example of Class Activation Maps highlighting discriminative regions for malaria classification.*
+
+### Conclusion on CAM's Impact
+
+The integration of CAM into our project not only enhances the interpretability of our CNN model but also provides a powerful tool for medical professionals to understand and trust the automated diagnosis process. By revealing the critical areas within cell images that lead to a model's prediction, CAM bridges the gap between AI's advanced capabilities and the need for transparent, explainable medical diagnostics.
+
 
 ## Setting Up the Environment
 To run the notebooks in this repository, you can create a Conda environment with all the necessary dependencies using the provided **malaria_detection_env.yml** file. Follow these steps:
