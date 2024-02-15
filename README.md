@@ -201,7 +201,7 @@ The process of generating Class Activation Maps involves several key steps:
 We applied CAM to our CNN model trained for malaria cell classification, resulting in compelling visual evidence of the model's attention in both parasitized and uninfected cells. The generated heatmaps clearly delineate the areas within the cells that most significantly influence the model's predictions, offering a window into the model's "thought process".
 
 <div align="center">
-  <img src="Images/cam_plots_.png" width="800">
+  <img src="Images/cam_plots.png" width="800">
 </div>
 
 *Example of Class Activation Maps highlighting discriminative regions for malaria classification.*
