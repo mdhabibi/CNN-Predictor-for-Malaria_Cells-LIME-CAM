@@ -182,7 +182,7 @@ The LIME analysis played a crucial role in validating and interpreting our CNN m
 
 ## Enhancing Model Interpretability with Class Activation Mapping (CAM)
 
-Following our exploration with LIME for model interpretability, we delve deeper into understanding our Convolutional Neural Network's decision-making process through Class Activation Mapping (CAM). This technique, rooted in the innovative work by MIT researchers ("Learning Deep Features for Discriminative Localization"), enables us to visualize the specific regions within the cell images that our model focuses on when making predictions. This visualization not only demystifies the CNN's operations but also significantly enhances the model's transparency.
+Following our exploration with LIME for model interpretability, we delve deeper into understanding our Convolutional Neural Network's decision-making process through Class Activation Mapping (CAM). This technique, rooted in the innovative work by MIT researchers ("[Learning Deep Features for Discriminative Localization](https://arxiv.org/abs/1512.04150)"), enables us to visualize the specific regions within the cell images that our model focuses on when making predictions. This visualization not only demystifies the CNN's operations but also significantly enhances the model's transparency.
 
 ### The Power of Global Average Pooling (GAP)
 
