@@ -117,6 +117,25 @@ def get_lime_related_libs():
     import warnings
     from keras.models import load_model
     return skimage, sklearn, LinearRegression, warnings, load_model
+    
+def get_gap_test_and_localization_libs():
+    """
+    Import and return libraries and functions specifically needed for performing a GAP test
+    and localizing anomalies in images with a CNN.
+
+    Returns:
+        GlobalAveragePooling2D: The GlobalAveragePooling2D layer for spatial data.
+        scipy: The SciPy library, used here for image upsampling.
+        Rectangle: The matplotlib class for adding rectangle overlays to images.
+        peak_local_max: Function from skimage to detect hotspots in 2D images.
+    """
+    from tensorflow.keras.layers import GlobalAveragePooling2D
+    import scipy
+    from matplotlib.patches import Rectangle
+    from skimage.feature import peak_local_max
+
+    return GlobalAveragePooling2D, scipy, Rectangle, peak_local_max
+
 
 
 if __name__ == "__main__":
